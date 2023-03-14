@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript locations</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+</head>
+<style>
+    * {
+        /* font-weight: bold; */
+        font-family: 'Lobster', cursive;
+        background-color: rgb(144, 227, 227);
+    }
+</style>
+
+<body>
+    <p id="demo"></p>
+    <script>
+        document.getElementById("demo").innerHTML = "location of my page is-->>" + window.location.href + "<br><br>" + "Host of this page is-->>" + window.location.host + "<br><br>" + "Host name of this page is-->>" + window.location.hostname + "<br><br>" + "Path name of the page is-->>" + window.location.pathname + "<br><br>" + "Port of this page is-->>" + window.location.port + "<br><br>" + "Protocol of this page is-->>" + window.location.protocol;
+    </script>
+
+</body>
+
+</html>
